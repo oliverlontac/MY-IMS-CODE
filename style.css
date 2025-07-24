@@ -1,0 +1,79 @@
+/* for Background settings to ha */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: url('warehouse.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Overlay blur to ha  option lang if want ng blur */
+.container {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  sa Title naman */
+.title h1 {
+  color: #f783ac;
+  font-size: 50px;
+  margin: 0;
+}
+
+.title h2 {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  border-bottom: 2px solid #f783ac;
+  padding-bottom: 5px;
+}
+
+/* Login Box to */
+.login-box {
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.login-box label {
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #f783ac;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  font-style: italic;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f783ac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #f05b8c;
+}
